@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className="py-16 bg-foreground text-primary-foreground">
       <div className="container mx-auto px-4 text-center">
         <h3 className="font-script text-5xl md:text-6xl mb-4">
-          Minh Anh & Hoàng Nam
+          Thuỷ Tiên & Ngọc Nhật
         </h3>
         
         <p className="font-body text-lg text-primary-foreground/80 mb-8 max-w-xl mx-auto">
@@ -38,7 +38,7 @@ const Footer = () => {
         <div className="section-divider mb-8 opacity-30" />
 
         <p className="font-body text-sm text-primary-foreground/50">
-          © 2025 Minh Anh & Hoàng Nam Wedding
+          © 2025 Thuỷ Tiên & Ngọc Nhật Wedding
         </p>
       </div>
     </footer>
