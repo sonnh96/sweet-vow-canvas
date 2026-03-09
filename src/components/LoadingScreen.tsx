@@ -29,7 +29,7 @@ const LoadingScreen = ({ onComplete }: LoadingScreenProps) => {
           transition={{ duration: 0.5, delay: 0.3 }}
           className="font-script text-4xl md:text-5xl gold-text mb-4"
         >
-          Minh Anh & Hoàng Nam
+          Thuỷ Tiên & Ngọc Nhật
         </motion.h1>
         
         <motion.p

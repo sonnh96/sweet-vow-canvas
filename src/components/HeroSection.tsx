@@ -75,11 +75,11 @@ const HeroSection = () => {
           transition={{ duration: 1, delay: 0.2 }}
         >
           <h1 className="font-script text-6xl md:text-8xl lg:text-9xl gold-text mb-4">
-            Minh Anh
+            Thuỷ Tiên
           </h1>
           <p className="font-serif text-3xl md:text-4xl text-foreground/60 my-4">&</p>
           <h1 className="font-script text-6xl md:text-8xl lg:text-9xl gold-text">
-            Hoàng Nam
+            Ngọc Nhật
           </h1>
         </motion.div>
 

@@ -14,9 +14,9 @@ export default {
     },
     extend: {
       fontFamily: {
-        serif: ['Playfair Display', 'serif'],
-        script: ['Great Vibes', 'cursive'],
-        body: ['Cormorant Garamond', 'serif'],
+        serif: ['Cinzel', 'serif'],
+        script: ['Dancing Script', 'cursive'],
+        body: ['Lora', 'serif'],
       },
       colors: {
         border: "hsl(var(--border))",

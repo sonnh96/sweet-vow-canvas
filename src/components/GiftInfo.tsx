@@ -41,10 +41,10 @@ const GiftInfo = () => {
             {/* Cô Dâu */}
             <div className="luxury-card rounded-2xl p-8">
               <div className="w-20 h-20 mx-auto mb-6 rounded-full bg-blush/50 flex items-center justify-center">
-                <span className="font-script text-3xl text-foreground">MA</span>
+                <span className="font-script text-3xl text-foreground">TT</span>
               </div>
               <h3 className="font-serif text-xl text-foreground mb-4">Cô Dâu</h3>
-              <p className="font-body text-foreground font-medium mb-2">NGUYỄN MINH ANH</p>
+              <p className="font-body text-foreground font-medium mb-2">ĐỖ THUỶ TIÊN</p>
               
               <div className="my-6 p-4 bg-background rounded-lg">
                 <CreditCard className="w-6 h-6 mx-auto text-primary mb-2" />
@@ -60,11 +60,11 @@ const GiftInfo = () => {
 
             {/* Chú Rể */}
             <div className="luxury-card rounded-2xl p-8">
-              <div className="w-20 h-20 mx-auto mb-6 rounded-full bg-sage/30 flex items-center justify-center">
-                <span className="font-script text-3xl text-foreground">HN</span>
+              <div className="w-20 h-20 mx-auto mb-6 rounded-full bg-accent/30 flex items-center justify-center">
+                <span className="font-script text-3xl text-foreground">NN</span>
               </div>
               <h3 className="font-serif text-xl text-foreground mb-4">Chú Rể</h3>
-              <p className="font-body text-foreground font-medium mb-2">TRẦN HOÀNG NAM</p>
+              <p className="font-body text-foreground font-medium mb-2">BẠCH NGỌC NHẬT</p>
               
               <div className="my-6 p-4 bg-background rounded-lg">
                 <CreditCard className="w-6 h-6 mx-auto text-primary mb-2" />

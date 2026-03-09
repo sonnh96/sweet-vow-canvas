@@ -43,7 +43,7 @@ const Navigation = () => {
           onClick={(e) => { e.preventDefault(); scrollToSection('#hero'); }}
           className="font-script text-2xl md:text-3xl gold-text"
         >
-          M & H
+          T & N
         </a>
 
         {/* Desktop Menu */}
