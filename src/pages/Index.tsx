@@ -1,13 +1,44 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import { useState } from 'react';
+import LoadingScreen from '@/components/LoadingScreen';
+import Navigation from '@/components/Navigation';
+import HeroSection from '@/components/HeroSection';
+import LoveStory from '@/components/LoveStory';
+import WeddingInfo from '@/components/WeddingInfo';
+import Timeline from '@/components/Timeline';
+import Gallery from '@/components/Gallery';
+import RSVP from '@/components/RSVP';
+import GuestWishes from '@/components/GuestWishes';
+import GiftInfo from '@/components/GiftInfo';
+import Footer from '@/components/Footer';
+import FloatingPetals from '@/components/FloatingPetals';
+import MusicPlayer from '@/components/MusicPlayer';
 
 const Index = () => {
+  const [isLoading, setIsLoading] = useState(true);
+
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
+    <>
+      {isLoading && <LoadingScreen onComplete={() => setIsLoading(false)} />}
+      
+      <div className={isLoading ? 'invisible' : 'visible'}>
+        <FloatingPetals />
+        <MusicPlayer />
+        <Navigation />
+        
+        <main>
+          <HeroSection />
+          <LoveStory />
+          <WeddingInfo />
+          <Timeline />
+          <Gallery />
+          <RSVP />
+          <GuestWishes />
+          <GiftInfo />
+        </main>
+        
+        <Footer />
       </div>
-    </div>
+    </>
   );
 };
 
